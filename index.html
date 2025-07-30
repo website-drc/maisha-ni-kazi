@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maisha Ni Kazi - Auto-école à Bukavu</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logos/logo-3.png" style="background: white; padding: 5px; border-radius: 7px" alt="Maisha Ni Kazi Logo" class="logo-custom"> Maisha Ni Kazi
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#hero">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#permis">Nos Permis</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tarifs">Tarifs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#equipe">Notre Équipe</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Plus
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#faq">FAQ</a></li>
+                                <li><a class="dropdown-item" href="#inscription">Inscription</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="mentions-legales.html">Mentions Légales</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('img/hero-bg/hero-bg-1.jpg'); background-size: cover; background-position: center; height: 100vh;">
+            <div class="overlay"></div>
+            <div class="container hero-content">
+                <h1 class="display-3 fw-bold mb-4 animate__animated animate__fadeInDown">Conduisez Votre Avenir avec Maisha Ni Kazi</h1>
+                <p class="lead mb-5 animate__animated animate__fadeInUp">Votre auto-école de confiance à Bukavu pour des formations complètes et un succès garanti.</p>
+                <a href="#inscription" class="btn btn-primary-custom btn-lg animate__animated animate__zoomIn">Inscrivez-vous Maintenant !</a>
+            </div>
+        </section>
+
+        <section id="permis" class="py-5 bg-light-custom">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Nos Permis & Formations</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm service-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-car fa-4x text-primary-custom mb-3"></i>
+                                <h5 class="card-title fw-bold">Permis B (Voiture)</h5>
+                                <p class="card-text">Maîtrisez la conduite automobile avec nos instructeurs expérimentés. Forfaits flexibles code + conduite.</p>
+                                <a href="#" class="btn btn-outline-primary-custom mt-3">Voir les forfaits</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm service-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-motorcycle fa-4x text-primary-custom mb-3"></i>
+                                <h5 class="card-title fw-bold">Permis Moto (A1, A2, A)</h5>
+                                <p class="card-text">Vivez la liberté sur deux roues en toute sécurité. Formation adaptée à chaque niveau.</p>
+                                <a href="#" class="btn btn-outline-primary-custom mt-3">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm service-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-truck fa-4x text-primary-custom mb-3"></i>
+                                <h5 class="card-title fw-bold">Permis Professionnels (C, D)</h5>
+                                <p class="card-text">Développez votre carrière avec nos formations poids lourds et transport en commun.</p>
+                                <a href="#" class="btn btn-outline-primary-custom mt-3">Détails</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="tarifs" class="py-5 bg-white-custom">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Nos Tarifs Avantageux</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-lg pricing-card">
+                            <div class="card-header text-center bg-primary-custom text-white py-3">
+                                <h4 class="my-0 fw-normal">Forfait Classique</h4>
+                            </div>
+                            <div class="card-body text-center">
+                                <h1 class="card-title pricing-card-title text-primary-custom">XXX CDF<small class="text-muted fw-light">/Complet</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4 text-start">
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Accès illimité Code en ligne</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>20h de Conduite</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Accompagnement Examen Code</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Accompagnement Examen Conduite</li>
+                                    <li><i class="fas fa-times-circle text-danger me-2"></i>Conduite Accompagnée</li>
+                                </ul>
+                                <button type="button" class="btn btn-lg btn-outline-primary-custom">Choisir ce forfait</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg pricing-card border-primary-custom">
+                            <div class="card-header text-center bg-primary-custom text-white py-3">
+                                <h4 class="my-0 fw-normal">Forfait Accéléré</h4>
+                            </div>
+                            <div class="card-body text-center">
+                                <h1 class="card-title pricing-card-title text-primary-custom">YYY CDF<small class="text-muted fw-light">/Rapide</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4 text-start">
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Accès illimité Code en ligne</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>25h de Conduite intensive</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Passage Code rapide</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Priorité Examen Conduite</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Cours individuels</li>
+                                </ul>
+                                <button type="button" class="btn btn-lg btn-primary-custom">Le plus populaire</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg pricing-card">
+                            <div class="card-header text-center bg-primary-custom text-white py-3">
+                                <h4 class="my-0 fw-normal">Conduite Accompagnée</h4>
+                            </div>
+                            <div class="card-body text-center">
+                                <h1 class="card-title pricing-card-title text-primary-custom">ZZZ CDF<small class="text-muted fw-light">/Progressif</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4 text-start">
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Accès Code en ligne</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>20h de Conduite initiale</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Suivi pédagogique</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Rendez-vous pédagogiques</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Passage Examen Conduite</li>
+                                </ul>
+                                <button type="button" class="btn btn-lg btn-outline-primary-custom">En savoir plus</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipe" class="py-5 bg-light-custom">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Rencontrez Notre Équipe Pédagogique</h2>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="team-member-card p-4 shadow-sm h-100">
+                            <!-- <img src="https://via.placeholder.com/150" class="img-fluid rounded-circle mb-3" alt="Moniteur 1"> -->
+                            <img src="img/moniteurs/m1.jpg" class="img-fluid rounded-circle mb-3" alt="Moniteur 1">
+                            <h5 class="fw-bold">Jean-Luc Cikuru</h5>
+                            <p class="text-muted">Moniteur Permis B & Poids Lourds</p>
+                            <p class="text-secondary">Avec plus de 15 ans d'expérience, Jean-Luc est reconnu pour sa pédagogie et sa patience.</p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="text-primary-custom me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="text-primary-custom"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="team-member-card p-4 shadow-sm h-100">
+                            <!-- <img src="https://via.placeholder.com/150" class="img-fluid rounded-circle mb-3" alt="Monitrice 2"> -->
+                            <img src="img/moniteurs/m2.jpg" class="img-fluid rounded-circle mb-3" alt="Monitrice 2">
+                            <h5 class="fw-bold">Sarah Tshibola</h5>
+                            <p class="text-muted">Monitrice Permis B & Moto</p>
+                            <p class="text-secondary">Sarah vous accompagne avec dynamisme et bonne humeur pour une formation efficace.</p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="text-primary-custom me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="text-primary-custom"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="team-member-card p-4 shadow-sm h-100">
+                            <!-- <img src="https://via.placeholder.com/150" class="img-fluid rounded-circle mb-3" alt="Moniteur 3"> -->
+                            <img src="img/moniteurs/m3.jpg" class="img-fluid rounded-circle mb-3" alt="Moniteur 3">
+                            <h5 class="fw-bold">Patrice Mwamba</h5>
+                            <p class="text-muted">Expert Code de la Route</p>
+                            <p class="text-secondary">Patrice rend l'apprentissage du code ludique et compréhensible pour tous.</p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="text-primary-custom me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-primary-custom"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="inscription" class="py-5 bg-white-custom">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Inscrivez-vous ou Demandez un Devis</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card p-4 shadow-lg form-card">
+                            <form action="#" method="POST">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="nom" class="form-label">Nom Complet</label>
+                                        <input type="text" class="form-control" id="nom" name="nom" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Adresse Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="telephone" class="form-label">Numéro de Téléphone</label>
+                                        <input type="tel" class="form-control" id="telephone" name="telephone">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="permis-souhaite" class="form-label">Permis Souhaité</label>
+                                        <select class="form-select" id="permis-souhaite" name="permis_souhaite" required>
+                                            <option selected disabled value="">Choisir...</option>
+                                            <option value="Permis B">Permis B (Voiture)</option>
+                                            <option value="Permis A1">Permis A1 (Moto)</option>
+                                            <option value="Permis A2">Permis A2 (Moto)</option>
+                                            <option value="Permis A">Permis A (Moto)</option>
+                                            <option value="Permis C">Permis C (Poids Lourds)</option>
+                                            <option value="Permis D">Permis D (Transport en Commun)</option>
+                                            <option value="Code Seul">Code de la Route Seul</option>
+                                            <option value="Récupération Points">Récupération de Points</option>
+                                            <option value="Autre">Autre</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Votre Message / Questions</label>
+                                        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary-custom btn-lg">Envoyer la Demande</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="py-5 bg-light-custom">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Nos Dernières Actualités & Conseils</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm blog-card">
+                            <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Article 1"> -->
+                            <img src="img/articles/article-2.jpg" class="card-img-top" alt="Article 1">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Les 5 erreurs à éviter à l'examen de conduite</h5>
+                                <p class="card-text text-muted small">Publié le 25 Juil. 2025</p>
+                                <p class="card-text">Découvrez nos astuces pour maximiser vos chances de réussite lors de votre passage de permis...</p>
+                                <a href="#" class="btn btn-sm btn-outline-secondary">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm blog-card">
+                            <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Article 2"> -->
+                            <img src="img/articles/article-3.jpg" class="card-img-top" alt="Article 2">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Nouvelle réglementation du Code de la Route 2025</h5>
+                                <p class="card-text text-muted small">Publié le 18 Juil. 2025</p>
+                                <p class="card-text">Restez informé des dernières modifications du code pour une conduite toujours plus sûre...</p>
+                                <a href="#" class="btn btn-sm btn-outline-secondary">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm blog-card">
+                            <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Article 3"> -->
+                            <img src="img/articles/article-5.jpg" class="card-img-top" alt="Article 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Pourquoi choisir une auto-école à Bukavu ?</h5>
+                                <p class="card-text text-muted small">Publié le 10 Juil. 2025</p>
+                                <p class="card-text">Les avantages d'apprendre à conduire dans un environnement local et adapté...</p>
+                                <a href="#" class="btn btn-sm btn-outline-secondary">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-5 bg-white-custom">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Questions Fréquemment Posées</h2>
+                <div class="accordion accordion-flush" id="faqAccordion">
+                    <div class="accordion-item shadow-sm mb-3">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Quel est l'âge minimum pour s'inscrire au permis B ?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                En RDC, l'âge minimum pour s'inscrire et passer l'examen du permis B est de 18 ans. Vous pouvez cependant commencer les cours de code avant cet âge.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item shadow-sm mb-3">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Quels documents sont nécessaires pour l'inscription ?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Généralement, une pièce d'identité valide, 4 photos passeport récentes, une attestation de résidence à Bukavu, et parfois un certificat médical. Contactez-nous pour la liste exacte.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item shadow-sm mb-3">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Quelle est la durée moyenne d'une formation complète ?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                La durée varie selon le forfait choisi et votre assiduité. Pour un permis B classique, comptez entre 3 et 6 mois en moyenne, incluant le code et la conduite. Les forfaits accélérés sont plus courts.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="temoignages" class="py-5 bg-light-custom">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Ce que Nos Élèves Disent</h2>
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial-item text-center p-4">
+                                <p class="lead fst-italic">"Grâce à Maisha Ni Kazi, j'ai obtenu mon permis du premier coup ! Les moniteurs sont très pédagogues et l'ambiance est super. Je recommande vivement !"</p>
+                                <img src="img/testimonials/testimonial-1.jpg" class="rounded-circle mt-3 mb-2" alt="Témoin 1">
+                                <h5 class="fw-bold mb-0">Élève 1</h5>
+                                <p class="text-muted">Je n'aurais jamais cru obtenir mon permis de conduire aussi rapidement et avec autant d'assurance, mais Maisha Ni Kazi a rendu cela possible ! Dès mon inscription, j'ai été accueillie avec une gentillesse et un professionnalisme remarquables. C'était clair que l'équipe se souciait vraiment de ma réussite</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial-item text-center p-4">
+                                <p class="lead fst-italic">"Formation moto au top ! Sécurité et plaisir de conduire assurés. Un grand merci à toute l'équipe de Maisha Ni Kazi pour leur professionnalisme."</p>
+                                <img src="img/testimonials/testimonial-2.jpg" class="rounded-circle mt-3 mb-2" alt="Témoin 2">
+                                <h5 class="fw-bold mb-0">Élève 2</h5>
+                                <!-- <p class="text-muted">Permis A2</p> -->
+                                <p class="text-muted">Je suis absolument ravi d'avoir choisi l'auto-école Maisha Ni Kazi pour ma formation de conduite ! Dès le premier jour, j'ai été impressionnée par le professionnalisme et la patience des instructeurs. Ils ont su créer une ambiance détendue et encourageante, ce qui m'a vraiment aidée à surmonter mon stress.</p>
+                            </div>
+                        </div>
+                        </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Précédent</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Suivant</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5 bg-white-custom">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Contactez-nous</h2>
+                <div class="row">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="info-box p-4 shadow-sm h-100">
+                            <h4 class="fw-bold mb-3">Nos Coordonnées</h4>
+                            <p><i class="fas fa-map-marker-alt text-primary-custom me-2"></i> Avenue de la Paix, No. 123, Quartier Nyamugo, Bukavu, RDC</p>
+                            <p><i class="fas fa-phone-alt text-primary-custom me-2"></i> +243 8X XXX XXXX</p>
+                            <p><i class="fas fa-envelope text-primary-custom me-2"></i> info@maishanikazi.com</p>
+                            <p><i class="fas fa-clock text-primary-custom me-2"></i> Du Lundi au Vendredi : 08h00 - 17h00<br>Samedi : 09h00 - 13h00</p>
+                            <div class="social-icons mt-4">
+                                <a href="#" class="me-3 text-primary-custom"><i class="fab fa-facebook-f fa-2x"></i></a>
+                                <a href="#" class="me-3 text-primary-custom"><i class="fab fa-instagram fa-2x"></i></a>
+                                <a href="#" class="me-3 text-primary-custom"><i class="fab fa-twitter fa-2x"></i></a>
+                                <a href="#" class="text-primary-custom"><i class="fab fa-whatsapp fa-2x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="map-box shadow-sm h-100">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.923419910408!2d29.21557987541793!3d-2.5085188390740924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19bb3a62d08a0d4b%3A0x6d9f52f20e4b7b2c!2sBukavu!5e0!3m2!1sen!2scd!4v1678901234567!5m2!1sen!2scd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark-custom text-white py-4">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5 class="text-primary-custom">Maisha Ni Kazi</h5>
+                    <p class="small">Votre partenaire pour une conduite sûre et responsable à Bukavu.</p>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5 class="text-primary-custom">Liens Rapides</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#accueil" class="text-white text-decoration-none small">Accueil</a></li>
+                        <li><a href="#permis" class="text-white text-decoration-none small">Nos Permis</a></li>
+                        <li><a href="#tarifs" class="text-white text-decoration-none small">Tarifs</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none small">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5 class="text-primary-custom">Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none small">Permis B</a></li>
+                        <li><a href="#" class="text-white text-decoration-none small">Permis Moto</a></li>
+                        <li><a href="#" class="text-white text-decoration-none small">Code de la Route</a></li>
+                        <li><a href="#" class="text-white text-decoration-none small">Conduite Accompagnée</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5 class="text-primary-custom">Suivez-nous</h5>
+                    <div class="social-links-footer">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <p class="small mt-3">&copy; 2025 Maisha Ni Kazi. Tous droits réservés.</p>
+                    <p class="small"><a href="mentions-legales.html" class="text-white text-decoration-none">Mentions Légales</a> | <a href="cgv.html" class="text-white text-decoration-none">CGV</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
